@@ -17,7 +17,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   data:
     mongodb:
-      host: 139.199.36.160
+      host: 127.0.0.11
       port: 27017
       database: coss4_dev
   session:
@@ -35,7 +35,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.0.59:8000/eureka/
+      defaultZone: http://127.0.0.1:8000/eureka/
 
 feign:
   hystrix:
