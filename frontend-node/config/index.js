@@ -7,7 +7,7 @@ const path = require('path')
 module.exports = {
   dev: {
 
-    // Paths
+    // Paths，
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
@@ -15,7 +15,7 @@ module.exports = {
         target: 'http://127.0.0.1:9090',
         changeOrigin: true,
         pathRewrite: {
-          '^/api': '/coss4'
+          '^/api': '/api'
         }
       }
     },

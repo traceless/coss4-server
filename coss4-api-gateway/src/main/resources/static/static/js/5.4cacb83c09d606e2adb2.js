@@ -1,0 +1,2 @@
+webpackJsonp([5],{"44Ga":function(e,t){},G7l0:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("教程")])},staticRenderFns:[]};var r=n("C7Lr")({name:"wiki"},a,!1,function(e){n("44Ga")},"data-v-82fa7a32",null);t.default=r.exports}});
+//# sourceMappingURL=5.4cacb83c09d606e2adb2.js.map
