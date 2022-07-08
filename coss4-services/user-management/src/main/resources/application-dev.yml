@@ -13,11 +13,11 @@ spring:
   datasource:
     username: coss_user
     password: MysqlCossuser123Cloud!@#
-    url: jdbc:mysql://139.199.36.160:3306/coss_dev?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://127.0.0.1:3306/coss_dev?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
     driver-class-name: com.mysql.jdbc.Driver
   data:
     mongodb:
-      host: 127.0.0.11
+      host: 127.0.0.1
       port: 27017
       database: coss4_dev
   session:
