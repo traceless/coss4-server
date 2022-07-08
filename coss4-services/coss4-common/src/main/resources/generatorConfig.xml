@@ -35,7 +35,7 @@
         <!-- jdbc连接 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://127.0.0.1:3306/coss_dev?useUnicode=true&amp;
-                            characterEncoding=utf-8&amp;useSSL=true&amp;serverTimezone=UTC"
+                            characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=UTC"
                         userId="coss_user"
                         password="MysqlCossuser123Cloud!@#" />
         <!-- 类型转换 -->
