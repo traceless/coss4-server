@@ -9,7 +9,7 @@ spring:
   datasource:
     username: coss_user
     password: MysqlCossuser123Cloud
-    url: jdbc:mysql://192.168.0.59:3306/coss_dev?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://192.168.0.59:3306/coss_dev?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
 
 eureka:
